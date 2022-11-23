@@ -8,7 +8,8 @@
     cd dashsystem
     CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o dashsystem
     # 3. 运行
-    ./dashsystem
+    mv dashsystem /usr/local/bin
+    dashsystem version
 ```
 或者直接下载编译好的二进制文件运行即可
 
